@@ -1,13 +1,12 @@
 {
     "workbench.iconTheme": "symbols",
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "Fira Code",
     "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.activityBar.location": "top",
     "symbols.hidesExplorerArrows": false,
-    "workbench.colorTheme": "Min Dark",
     "editor.fontSize": 14,
+    "editor.tabSize": 2,
     "editor.lineHeight": 1.8,
     "editor.rulers": [80, 120],
     "editor.renderLineHighlight": "gutter",
@@ -16,5 +15,65 @@
     "editor.trimAutoWhitespace": false,
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Vesper",
+    "workbench.activityBar.location": "top",
+    "workbench.colorCustomizations": {
+        "sideBarSectionHeader.border": "#00000000",
+        "focusBorder": "#00000000"
+    },
+    "terminal.integrated.fontFamily": "Fira Code",
+    "workbench.statusBar.visible": false,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+    "editor.suggestSelection": "first",
+    "typescript.suggest.autoImports": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "apc.activityBar": {
+        "position": "bottom",
+        "hideSettings": true,
+        "size": 48,
+        "itemMargin": 8,
+        "itemSize": 32
+    },
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 10
+        },
+        "frame": false
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.font.family": "Inter",
+    "apc.stylesheet": {
+        ".title-label >": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.enabled": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false
 }
